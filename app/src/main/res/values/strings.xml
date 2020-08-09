@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HandlerDemo</string>
+    <string name="main_ui_thread">Main UI Thread</string>
+    <string name="handler">Handler</string>
+    <string name="initial_text_msg">Initial Text Msg!</string>
+    <string name="btn_msg">UI Button Pressed</string>
+    <string name="crash_ui_with_long_task">Crash UI with long task</string>
+    <string name="message_via_handler_button">Message Via Handler button</string>
+</resources>
