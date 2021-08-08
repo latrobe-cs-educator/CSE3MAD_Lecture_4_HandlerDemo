@@ -1,14 +1,14 @@
 package com.example.handlerdemo;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
+import android.util.Log;
 import android.view.View;
-import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     wait(endTime - System.currentTimeMillis());
                 } catch (Exception e) {
+                    Log.d("TAG", "error" + e.toString());
                 }
             }
         }
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                         try {
                             wait(endTime - System.currentTimeMillis());
                         } catch (Exception e) {
+                            Log.d("TAG", "error" + e.toString());
                         }
                     }
                 }
